@@ -1,35 +1,13 @@
 ## hi, I'm Srishanth
 
-I like building software that acts on its own: **agents** that use tools, **policies** that learn from reward, and **scripts** that do my chores for me.
+I'm a student at IIT Kharagpur. Most of what I build falls into three areas: LLM agents, reinforcement learning, and automating things I'm tired of doing by hand.
 
-```text
-currently → teaching an agent to play Clash Royale from raw pixels
-          → feeding Arigatho a fresh batch of OA questions every day
-          → surviving placement season at IIT Kharagpur
-```
+Right now I'm working on [AlphaGO_ClashRoyale](https://github.com/MSR327/AlphaGO_ClashRoyale), a long-term attempt at an agent that plays Clash Royale from the screen. It's at the very start (nothing plays yet), and I'm building it in phases, learning the RL I need along the way. My B.Tech thesis is in the same area: a car in CARLA that drives using camera, LiDAR and voice commands, trained with PPO.
 
-### GenAI & agents
+On the LLM side, I wrote [iitkgp-erp-mcp](https://github.com/MSR327/iitkgp-erp-mcp) so an agent can read my college ERP (grades, attendance, timetable), and [edge-swarm](https://github.com/MSR327/edge-swarm), which runs one model across several small devices by splitting its layers between them. [Arigatho](https://github.com/MSR327/Arigatho) uses an LLM to read placement chat groups every day and turn the OA questions people share into a [searchable site](https://msr327.github.io/Arigatho/).
 
-- [**iitkgp-erp-mcp**](https://github.com/MSR327/iitkgp-erp-mcp): an MCP server that lets Claude, or any agent, read my KGP ERP (grades, attendance, timetable).
-- [**Arigatho**](https://github.com/MSR327/Arigatho): an LLM pipeline that reads placement chats, sorts every OA question by company and finds the nearest practice problem. [See the site →](https://msr327.github.io/Arigatho/)
-- [**edge-swarm**](https://github.com/MSR327/edge-swarm): one LLM spread across a pile of laptops and Raspberry Pis, each running a slice of the layers.
-- [**NLP service**](https://github.com/MSR327/FastAPI-Based-NLP-Service-for-Sentiment-Classification-Summarization): sentiment, zero-shot classification and summarisation behind one FastAPI.
+Some of it is just automating chores. [KGP OPD](https://github.com/MSR327/kgp-opd) books a campus hospital slot the moment booking opens, [contest-clock](https://github.com/MSR327/contest-clock) puts every upcoming Codeforces, CodeChef, LeetCode and AtCoder contest on one calendar, and [Codeforces Lockout](https://github.com/MSR327/Codeforces-Lockout-Platform) lets friends race each other on the same problems.
 
-### Reinforcement learning
+I also do competitive programming: [Codeforces](https://codeforces.com/profile/Srishanthreddy) Pupil (max 1376) and CodeChef (max 1584).
 
-- [**AlphaGO_ClashRoyale**](https://github.com/MSR327/AlphaGO_ClashRoyale): the long game. An agent that plays from the screen the way a person does, built phase by phase, and each phase must pass a gate before the next opens. It's in phase 0 now, so nothing plays yet.
-- **B.Tech thesis**: a car in CARLA that drives from camera + LiDAR + spoken commands, trained with PPO.
-
-### Automating the annoying stuff
-
-- [**KGP OPD**](https://github.com/MSR327/kgp-opd): grabs a campus-hospital OPD slot the second booking opens.
-- [**contest-clock**](https://github.com/MSR327/contest-clock): every upcoming Codeforces, CodeChef, LeetCode and AtCoder contest on one calendar.
-- [**Codeforces Lockout**](https://github.com/MSR327/Codeforces-Lockout-Platform): turns practice into a live race between friends.
-
-### Just for fun
-
-Sudoku as exact cover with [Dancing Links](https://github.com/MSR327/sudoko-solver-using-dancing-links-algorithm) in C++ · [Codeforces](https://codeforces.com/profile/Srishanthreddy) Pupil (max 1376) · CodeChef max 1584
-
----
-
-[srishanth327@gmail.com](mailto:srishanth327@gmail.com). Happy to talk RL, agents, or why your chore should be a script.
+You can reach me at [srishanth327@gmail.com](mailto:srishanth327@gmail.com).
