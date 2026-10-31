@@ -19,10 +19,6 @@ I study Electrical Engineering at **IIT Kharagpur** (B.Tech Hons., 2023–2027).
 
 Learning in public: [AlphaGO_ClashRoyale](https://github.com/MSR327/AlphaGO_ClashRoyale), an agent that will play Clash Royale from the screen (early stage).
 
-#### Tools I use
-
-Python · C/C++ · SQL · JavaScript · MATLAB/Simulink · PyTorch · FastAPI · Flask · Playwright · PostgreSQL · Git · Linux
-
 #### Contact
 
 [srishanth327@gmail.com](mailto:srishanth327@gmail.com)
